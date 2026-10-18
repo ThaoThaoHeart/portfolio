@@ -44,7 +44,7 @@ export const projects = [
     summary:
       'Describe the project here. What did you learn? What was the hardest part? Keep it short and specific.',
     status: 'building',
-    tech: ['Python', 'FastAPI'],
+    tech: ['Python'],
     liveUrl: '',
     repoUrl: '',
     image: '',
