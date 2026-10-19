@@ -36,17 +36,7 @@ export const projects = [
     status: 'shipped',
     tech: ['React', 'Django', 'PostgreSQL'],
     liveUrl: '',
-    repoUrl: '',
-    image: '',
-  },
-  {
-    title: 'Project Two',
-    summary:
-      'Describe the project here. What did you learn? What was the hardest part? Keep it short and specific.',
-    status: 'building',
-    tech: ['Python'],
-    liveUrl: '',
-    repoUrl: '',
+    repoUrl: 'https://github.com/ThaoThaoHeart/django-ecommerce',
     image: '',
   },
   {
@@ -98,21 +88,27 @@ export const skillLines = [
 
 export const journey = [
   {
-    when: '2026 — Now',
-    title: 'Your current role or focus',
-    where: 'Company / School / Self-directed',
-    note: 'A line about what you do or are working toward.',
+    when: '2022 — Now',
+    title: 'Software Developer',
+    where: 'HUB International',
+    note: 'Build and maintain Easy Epic, a Django/DRF and Celery platform that syncs client, policy and cancellation data with the Applied Epic API. Automated the daily BrokerLift report with Python and Playwright, and turn stakeholder requirements into technical designs, code reviews and mentoring.',
   },
   {
-    when: '2024 — 2026',
-    title: 'Previous role or degree',
-    where: 'Organization',
-    note: 'Key achievement or what you learned.',
+    when: '2021 — 2022',
+    title: 'Tutor',
+    where: 'St. Clair College',
+    note: 'Tutored students one-on-one and in groups across Java, Swift, React, Flutter, Unity, C#, Linux, PostgreSQL and MySQL.',
   },
   {
-    when: 'Upcoming',
-    title: 'AWS Certified Cloud Practitioner',
-    where: 'Amazon Web Services',
-    note: 'Swap this for any certification you are pursuing.',
+    when: '2020 — 2022',
+    title: 'Head Sensei (Supervisor)',
+    where: 'Code Ninjas',
+    note: 'Taught JavaScript, C# and Lua to students aged 6 to 16, and trained staff on daily operations and teaching standards.',
+  },
+  {
+    when: '2019 — 2022',
+    title: 'Diploma, Mobile Application Development',
+    where: 'St. Clair College',
+    note: 'Graduated with a 4.0 GPA and the Student Leadership Award; first- and second-year class representative.',
   },
 ];
