@@ -88,9 +88,10 @@ export const skillLines = [
     stops: [
       { name: 'Linux' },
       { name: 'Git' },
-      { name: 'AWS S3', learning: true },
-      { name: 'CloudFront', learning: true },
-      { name: 'Route 53', learning: true },
+      { name: 'AWS S3' },
+      { name: 'CloudFront' },
+      { name: 'Route 53' },
+      { name: 'Other AWS Services', learning: true }
     ],
   },
 ];
