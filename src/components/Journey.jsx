@@ -3,7 +3,7 @@ import Station from './Station.jsx';
 
 export default function Journey() {
   return (
-    <Station id="journey" number={4} name="Journey" color="var(--line-indigo)">
+    <Station id="journey" number={4} name="Journey" color="var(--line-indigo)" className="station--wide">
       <ol className="journey">
         {journey.map((item) => (
           <li key={item.title} className="journey__item">

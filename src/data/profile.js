@@ -91,7 +91,7 @@ export const journey = [
     when: '2022 — Now',
     title: 'Software Developer',
     where: 'HUB International',
-    note: 'Build and maintain Easy Epic, a Django/DRF and Celery platform that syncs client, policy and cancellation data with the Applied Epic API. Automated the daily BrokerLift report with Python and Playwright, and turn stakeholder requirements into technical designs, code reviews and mentoring.',
+    note: 'Build and maintain projects with Django/DRF and Celery platform that syncs client, policy and cancellation data with the Applied Epic API. Develop and maintain client-facing self-service web portals in React/JavaScript, building new features and fixing issues in production.',
   },
   {
     when: '2021 — 2022',
