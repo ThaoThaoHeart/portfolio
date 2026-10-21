@@ -1,4 +1,4 @@
-# Portfolio — "Transit Line"
+# Portfolio - "Transit Line"
 
 A personal portfolio built with React + Vite, designed as a transit map: each
 section of the page is a **station** on one continuous line, the nav is a
@@ -47,7 +47,7 @@ what Google and link previews show).
   tech: ['React', 'AWS Lambda'],
   liveUrl: 'https://…',          // optional
   repoUrl: 'https://github.com/…',// optional
-  image: '/projects/weather.png', // optional — a generated map is drawn if empty
+  image: '/projects/weather.png', // optional - a generated map is drawn if empty
 },
 ```
 

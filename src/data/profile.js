@@ -3,9 +3,9 @@ export const profile = {
   initials: 'JH',
   location: 'Windsor, Ontario',
 
-  roles: ['Software Engineer', 'Cloud Architect', 'Problem Solver', 'Builder'],
+  roles: ['Software Engineer', 'Problem Solver', 'Builder'],
   tagline:
-    'I build things for the web and I am learning to run them in the cloud. This site is my route map — every stop is something I have made or am making.',
+    'I solve business problems with tech. I am learning to run them in the cloud. This site is my route map - every stop is something I have made or am making.',
   availability: 'Open to opportunities',
 
   about: [
@@ -23,7 +23,7 @@ export const profile = {
   links: {
     github: 'https://github.com/ThaoThaoHeart',
     linkedin: 'https://www.linkedin.com/in/jenny-hoang-dev/',
-    email: '',
+    email: 'jennyhoang1144@gmail.com',
     resume: '',
   },
 };
@@ -32,9 +32,9 @@ export const projects = [
   {
     title: 'E-Commerce',
     summary:
-      'One or two sentences on what this project does and the problem it solves. Mention your role and the result.',
+      'A full-stack online music store built with a Django REST API and a React single-page frontend. Shoppers can browse and filter a catalog of instruments and software, pick product options like color or size, keep a cart with or without an account, and check out in four steps with Canadian provincial tax and shipping worked out automatically.',
     status: 'shipped',
-    tech: ['React', 'Django', 'PostgreSQL'],
+    tech: ['React', 'Django', 'SQLite'],
     liveUrl: '',
     repoUrl: 'https://github.com/ThaoThaoHeart/django-ecommerce',
     image: '',
@@ -42,8 +42,8 @@ export const projects = [
   {
     title: 'This Portfolio on AWS',
     summary:
-      'Deploying this exact site to AWS by hand while learning cloud fundamentals — hosting, CDN, DNS, and HTTPS.',
-    status: 'building',
+      'Deploying this exact site to AWS by hand while learning cloud fundamentals - hosting, CDN, DNS, and HTTPS.',
+    status: 'shipped',
     tech: ['React', 'Vite', 'AWS'],
     liveUrl: '',
     repoUrl: '',
@@ -69,7 +69,7 @@ export const skillLines = [
     name: 'Backend Line',
     code: 'B',
     color: 'var(--line-teal)',
-    stops: [{ name: 'Node.js' }, { name: 'Python' }, { name: 'SQL' }, { name: 'REST APIs' }],
+    stops: [{ name: 'Python' }, { name: 'Django' }, { name: 'SQL' }, { name: 'REST APIs' }],
   },
   {
     name: 'Cloud Line',
@@ -88,25 +88,25 @@ export const skillLines = [
 
 export const journey = [
   {
-    when: '2022 — Now',
+    when: '2022 - Now',
     title: 'Software Developer',
     where: 'HUB International',
     note: 'Build and maintain projects with Django/DRF and Celery platform that syncs client, policy and cancellation data with the Applied Epic API. Develop and maintain client-facing self-service web portals in React/JavaScript, building new features and fixing issues in production.',
   },
   {
-    when: '2021 — 2022',
+    when: '2021 - 2022',
     title: 'Tutor',
     where: 'St. Clair College',
     note: 'Tutored students one-on-one and in groups across Java, Swift, React, Flutter, Unity, C#, Linux, PostgreSQL and MySQL.',
   },
   {
-    when: '2020 — 2022',
+    when: '2020 - 2022',
     title: 'Head Sensei (Supervisor)',
     where: 'Code Ninjas',
     note: 'Taught JavaScript, C# and Lua to students aged 6 to 16, and trained staff on daily operations and teaching standards.',
   },
   {
-    when: '2019 — 2022',
+    when: '2019 - 2022',
     title: 'Diploma, Mobile Application Development',
     where: 'St. Clair College',
     note: 'Graduated with a 4.0 GPA and the Student Leadership Award; first- and second-year class representative.',

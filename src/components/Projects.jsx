@@ -76,7 +76,7 @@ export default function Projects() {
   return (
     <Station id="projects" number={2} name="Projects" color="var(--line-teal)" className="station--wide">
       <p className="section-lede">
-        Departures board — things I've shipped, things that are boarding, and what's next on the schedule.
+        Departures board - things I've shipped, things that are boarding, and what's next on the schedule.
       </p>
       <div className="tickets">
         {projects.map((p, i) => (

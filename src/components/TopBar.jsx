@@ -25,7 +25,7 @@ export default function TopBar({ stops, active }) {
 
   return (
     <header className="topbar">
-      <a href="#origin" className="roundel" aria-label={`${profile.name} — back to top`}>
+      <a href="#origin" className="roundel" aria-label={`${profile.name} - back to top`}>
         <span className="roundel__ring" aria-hidden="true" />
         <span className="roundel__bar">{profile.initials}</span>
       </a>
