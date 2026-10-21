@@ -15,7 +15,7 @@ export default function Contact() {
         <span>Let's build the next one.</span>
       </p>
       <p className="section-lede">
-        Whether it's a role, a collaboration, or a question about something here — my inbox is open.
+        Whether it's a role, a collaboration, or a question about something here - my inbox is open.
       </p>
       <ul className="connections">
         {github && (
