@@ -30,16 +30,6 @@ export const profile = {
 
 export const projects = [
   {
-    title: 'E-Commerce',
-    summary:
-      'A full-stack online music store built with a Django REST API and a React single-page frontend. Shoppers can browse and filter a catalog of instruments and software, pick product options like color or size, keep a cart with or without an account, and check out in four steps with Canadian provincial tax and shipping worked out automatically.',
-    status: 'shipped',
-    tech: ['React', 'Django', 'SQLite'],
-    liveUrl: '',
-    repoUrl: 'https://github.com/ThaoThaoHeart/django-ecommerce',
-    image: '',
-  },
-  {
     title: 'This Portfolio on AWS',
     summary:
       'Deploying this exact site to AWS by hand while learning cloud fundamentals - hosting, CDN, DNS, and HTTPS.',
